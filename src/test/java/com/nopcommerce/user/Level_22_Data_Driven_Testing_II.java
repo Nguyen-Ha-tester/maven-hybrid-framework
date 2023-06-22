@@ -54,7 +54,7 @@ public class Level_22_Data_Driven_Testing_II extends BaseTest {
 	public void User_02_Login() {
 		loginPage = registerPage.clickLoginLink();
 		loginPage.inputToTextboxByID(driver, "Email", email);
-		loginPage.inputToTextboxByID(driver, "Password", userData.getPassword());
+		loginPage.inputToTextboxByID(driver, "Password", userData.getPasswordLogin());
 		homePage = loginPage.clickLoginButton();
 		verifyTrue(homePage.isLogOutLinkVisible());
 

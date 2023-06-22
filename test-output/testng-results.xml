@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T11:10:08Z" name="NopCommerce" finished-at="2023-06-21T11:10:17Z" duration-ms="9017">
+  <suite started-at="2023-06-22T10:10:44Z" name="NopCommerce" finished-at="2023-06-22T10:10:52Z" duration-ms="8510">
     <groups>
     </groups>
-    <test started-at="2023-06-21T11:10:08Z" name="Run on Chrome" finished-at="2023-06-21T11:10:17Z" duration-ms="9017">
-      <class name="com.nopcommerce.user.Level_22_Data_Driven_Testing_I">
-        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_I@5c9ac4cc]" started-at="2023-06-21T11:10:08Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2023-06-21T11:10:08Z" duration-ms="32" status="PASS">
+    <test started-at="2023-06-22T10:10:44Z" name="Run on Chrome" finished-at="2023-06-22T10:10:52Z" duration-ms="8510">
+      <class name="com.nopcommerce.user.Level_22_Data_Driven_Testing_II">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:44Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2023-06-22T10:10:44Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_I@5c9ac4cc]" started-at="2023-06-21T11:10:08Z" name="beforeClass" finished-at="2023-06-21T11:10:12Z" duration-ms="3931" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:44Z" name="beforeClass" finished-at="2023-06-22T10:10:48Z" duration-ms="4125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_I@5c9ac4cc]" started-at="2023-06-21T11:10:12Z" name="User_01_Register" finished-at="2023-06-21T11:10:16Z" duration-ms="3211" status="PASS">
+        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:48Z" name="User_01_Register" finished-at="2023-06-22T10:10:51Z" duration-ms="2876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Register -->
-        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_I@5c9ac4cc]" started-at="2023-06-21T11:10:16Z" name="User_02_Login" finished-at="2023-06-21T11:10:17Z" duration-ms="1528" status="PASS">
+        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:51Z" name="User_02_Login" finished-at="2023-06-22T10:10:52Z" duration-ms="1251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_02_Login -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_I@5c9ac4cc]" started-at="2023-06-21T11:10:17Z" name="afterClass" finished-at="2023-06-21T11:10:17Z" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:52Z" name="afterClass" finished-at="2023-06-22T10:10:52Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.Level_22_Data_Driven_Testing_I -->
+      </class> <!-- com.nopcommerce.user.Level_22_Data_Driven_Testing_II -->
     </test> <!-- Run on Chrome -->
   </suite> <!-- NopCommerce -->
 </testng-results>
