@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-22T10:10:44Z" name="NopCommerce" finished-at="2023-06-22T10:10:52Z" duration-ms="8510">
+  <suite started-at="2023-06-24T04:49:53Z" name="NopCommerce" finished-at="2023-06-24T04:50:05Z" duration-ms="11647">
     <groups>
     </groups>
-    <test started-at="2023-06-22T10:10:44Z" name="Run on Chrome" finished-at="2023-06-22T10:10:52Z" duration-ms="8510">
+    <test started-at="2023-06-24T04:49:53Z" name="Run on Chrome" finished-at="2023-06-24T04:50:05Z" duration-ms="11647">
       <class name="com.nopcommerce.user.Level_22_Data_Driven_Testing_II">
-        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:44Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2023-06-22T10:10:44Z" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@5c9ac4cc]" started-at="2023-06-24T04:49:53Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2023-06-24T04:49:53Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:44Z" name="beforeClass" finished-at="2023-06-22T10:10:48Z" duration-ms="4125" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@5c9ac4cc]" started-at="2023-06-24T04:49:53Z" name="beforeClass" finished-at="2023-06-24T04:50:00Z" duration-ms="6860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:48Z" name="User_01_Register" finished-at="2023-06-22T10:10:51Z" duration-ms="2876" status="PASS">
+        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@5c9ac4cc]" started-at="2023-06-24T04:50:00Z" name="User_01_Register" finished-at="2023-06-24T04:50:03Z" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Register -->
-        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:51Z" name="User_02_Login" finished-at="2023-06-22T10:10:52Z" duration-ms="1251" status="PASS">
+        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@5c9ac4cc]" started-at="2023-06-24T04:50:03Z" name="User_02_Login" finished-at="2023-06-24T04:50:04Z" duration-ms="1324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_02_Login -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@4df39a88]" started-at="2023-06-22T10:10:52Z" name="afterClass" finished-at="2023-06-22T10:10:52Z" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_22_Data_Driven_Testing_II@5c9ac4cc]" started-at="2023-06-24T04:50:04Z" name="afterClass" finished-at="2023-06-24T04:50:05Z" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

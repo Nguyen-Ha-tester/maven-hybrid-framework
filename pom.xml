@@ -138,6 +138,12 @@
             <version>${allure.version}</version>
         </dependency>
 
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.20</version>
+</dependency>
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -155,26 +161,37 @@
     <build>
         <plugins>
             <!-- Compiler -->
+          
+          
+          
+          
+          
+          
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.0</version>
+               <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.11.0</version>
                 <!-- Compiler code vs Java 11 -->
                 <configuration>
                     <source>11</source>
                     <target>11</target>
                 </configuration>
             </plugin>
+            
+            
+            
+            
+            
 
             <!-- Run test -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+              <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.1.2</version>
                 <configuration>
                     <!-- Run TestNG xml file -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/runNopCommerceUser.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/runNopCommerceTest.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <!-- Argument -->
