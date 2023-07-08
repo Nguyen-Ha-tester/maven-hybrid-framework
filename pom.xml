@@ -162,7 +162,15 @@
   <artifactId>opennlp-tools</artifactId>
   <version>1.6.0</version>
 </dependency>
+  <!-- https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
+<dependency>
+    <groupId>org.aeonbits.owner</groupId>
+    <artifactId>owner</artifactId>
+    <version>1.0.12</version>
+</dependency>
+
     </dependencies>
+    
 
     <!-- Compiler/ Run Test -->
     <build>
